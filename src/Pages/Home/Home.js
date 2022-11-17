@@ -21,21 +21,21 @@ export function Home() {
                         <button>Resume</button>
                         <div id='home-main-container-right-content-resume-social'>
                             <div>
-                                <a href="https://github.com/khabibullakhanov" target="_blank">
+                                <a href="https://github.com/khabibullakhanov">
                                     <IconButton>
                                         <GitHubIcon />
                                     </IconButton>
                                 </a>
                             </div>
                             <div>
-                                <a href="https://t.me/khabibullakhanov" target="_blank">
+                                <a href="https://t.me/khabibullakhanov">
                                     <IconButton>
                                         <TelegramIcon />
                                     </IconButton>
                                 </a>
                             </div>
                             <div>
-                                <a href="https://www.instagram.com/khabibullakhanov/" target="_blank">
+                                <a href="https://www.instagram.com/khabibullakhanov/">
                                     <IconButton>
                                         <InstagramIcon />
                                     </IconButton>

@@ -62,7 +62,7 @@ export function Portfolios() {
                                 <div id='portfolio-card-hover'>
                                     <div>
                                         <h3>See on Git Hub</h3>
-                                        <a href={item.gitHb} target="_blank">
+                                        <a rel="noopener noreferrer" href={item.gitHb} >
                                             <IconButton>
                                                 <GitHubIcon style={{ fontSize: "40px" }} />
                                             </IconButton>
@@ -70,7 +70,7 @@ export function Portfolios() {
                                     </div>
                                     <div>
                                         <h3>See on Netlify </h3>
-                                        <a href={item.netlify} target="_blank">
+                                        <a rel="noopener noreferrer" href={item.netlify} >
                                             <IconButton>
                                                 <DashboardIcon style={{ fontSize: "40px" }} />
                                             </IconButton>

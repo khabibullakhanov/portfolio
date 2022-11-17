@@ -1,0 +1,45 @@
+#contact-main-container {
+    width: 100%;
+}
+
+#contact-main-container-inside {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+    align-items: center;
+    width: 100%;
+}
+
+#contact-main-container-inside-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#contact-main-container-inside-form input {
+    border: 1px solid black;
+    outline: none;
+    border-radius: 6px;
+    height: 40px;
+    width: 100%;
+    padding-left: 5%;
+}
+
+#contact-main-container-inside-form > h1 {
+    margin-bottom: 5%;
+}
+
+#contact-main-container-inside-form > button {
+    background-color: dodgerblue;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    height: 45px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 6px;
+    margin-top: 10%;
+}

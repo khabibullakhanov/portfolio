@@ -12,17 +12,19 @@ export function Footer() {
       <div id='footer-header-content'>
         <p></p>
         <div id='footer-header-content-inside'>
-          <a href="https://github.com/khabibullakhanov" target="_blank">
+          <a href="https://github.com/khabibullakhanov" target="_blank" rel="noopener noreferrer">
             <IconButton>
               <GitHubIcon />
             </IconButton>
           </a>
-          <a href="https://t.me/khabibullakhanov" target="_blank">
+          <a href="https://t.me/khabibullakhanov" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://t.me/khabibullakhanov" target="_blank"> */}
             <IconButton>
               <TelegramIcon />
             </IconButton>
           </a>
-          <a href="https://www.instagram.com/khabibullakhanov/" target="_blank">
+          <a href="https://www.instagram.com/khabibullakhanov" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://www.instagram.com/khabibullakhanov/" target="_blank"> */}
             <IconButton>
               <InstagramIcon />
             </IconButton>

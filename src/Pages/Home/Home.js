@@ -5,6 +5,10 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import IconButton from '@mui/material/IconButton';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import resume from "../../Assets/Resume/Resume.pdf"
+
+
+
 
 export function Home() {
     return (
@@ -18,7 +22,9 @@ export function Home() {
                     <h1>Khabibullakhanov Mukhammadkhan.</h1>
                     <p>I'm middle junior Front-End Developer located in Uzbekistan. I have a serious passion for UI effects, animations and creating intuitive, dynamic user experiences. I am an extremely curious and self-motivated individual with a huge passion for design in general. As an autodidact, I take a very positive and ego-free approach to all aspects of my life, and I carry a strong work ethic with me wherever I go. Well-organised person, problem solver, independent employee with high attention to detail. Fan of Football, outdoor activities, TV series and English language. Interested in the entire frontend spectrum and working on ambitious projects with positive people.</p>
                     <div id='home-main-container-right-content-resume'>
-                        <button>Resume</button>
+                        {/*  */}
+                        <button><a href={resume} download={resume}>Resume</a></button>
+                        {/* </a> */}
                         <div id='home-main-container-right-content-resume-social'>
                             <div>
                                 <a href="https://github.com/khabibullakhanov">

@@ -49,6 +49,17 @@
     border-radius: 8px;
 }
 
+#portfolio-card-figure {
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(173, 6, 6, 0.2) 0px 18px 50px -10px;
+}
+
+#portfolio-card-figure>img {
+    width: 100%;
+    height: 100%;
+}
+
 #portfolios-inside-container {
     display: flex;
     align-items: center;
@@ -96,14 +107,18 @@
     } */
 
     #portfolio-card-hover {
-        height: 90%;
+        height: 100%;
     }
 
     #portfolios-inside-container {
         width: 90%;
     }
 
-    #portfolio-card-figure {
+    #portfolio-card {
+        height: 200px;
+    }
+
+    /* #portfolio-card-figure {
         width: 100%;
         height: 80%;
     }
@@ -111,7 +126,7 @@
     #portfolio-card-figure>img {
         width: 100%;
         height: 100%;
-    }
+    } */
 
     #portfolio-hover-icon {
         font-size: 25px !important;

@@ -45,6 +45,10 @@
     padding: 1.5% 0;
 }
 
+#home-main-container-right-content-resume>button>a {
+    color: black;
+}
+
 #home-main-container-right-content-resume-social {
     display: flex;
     align-items: center;

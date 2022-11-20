@@ -1,6 +1,6 @@
 {
-    "short_name": "xpress-admin",
-    "name": "xpress-admin",
+    "short_name": "khabibullakhanov",
+    "name": "khabibullakhanov",
     "scope": "/",
       "start_url": "/",
     "display": "standalone",
@@ -9,27 +9,27 @@
     
    "icons": [
      {
-        "src": "LOGO.34d0d7d407a435add6f9081cd6ca6011 (1).svg",
+        "src": "My Logo.png",
         "sizes": "512x512"
       },
       {
-        "src": "LOGO.34d0d7d407a435add6f9081cd6ca6011 (1).svg",
+        "src": "My Logo.png",
         "sizes": "192x192"
       },
       {
-        "src": "LOGO.34d0d7d407a435add6f9081cd6ca6011 (1).svg",
+        "src": "My Logo.png",
         "sizes": "144x144"
       },
       {
-        "src": "LOGO.34d0d7d407a435add6f9081cd6ca6011 (1).svg",
+        "src": "My Logo.png",
         "sizes": "96x96"
       },
       {
-        "src": "LOGO.34d0d7d407a435add6f9081cd6ca6011 (1).svg",
+        "src": "My Logo.png",
         "sizes": "87x87"
       },
       {
-        "src": "LOGO.34d0d7d407a435add6f9081cd6ca6011 (1).svg",
+        "src": "My Logo.png",
         "sizes": "72x72"
       },
   
@@ -39,7 +39,7 @@
       },
       
       {
-        "src": "LOGO.34d0d7d407a435add6f9081cd6ca6011 (1).svg",
+        "src": "My Logo.png",
         "sizes": "48x48"
       }
       

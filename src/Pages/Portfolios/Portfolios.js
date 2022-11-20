@@ -7,6 +7,20 @@ import { IconButton } from '@mui/material';
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 import { toast } from "react-toastify";
+import alto from "../../Assets/Portfolio Images/alto-portfolio.JPG"
+import office from "../../Assets/Portfolio Images/khabibullakhanov-office.JPG"
+import honeyStore from "../../Assets/Portfolio Images/honey-shop.JPG"
+import xpressAdmin from "../../Assets/Portfolio Images/xpress-admin.JPG"
+import honeyAdmin from "../../Assets/Portfolio Images/honey-admin.JPG"
+import pagination from "../../Assets/Portfolio Images/pagination.JPG"
+import moxoPr from "../../Assets/Portfolio Images/moxa-portfolio.JPG"
+import passwordGenerator from "../../Assets/Portfolio Images/password-generator.JPG"
+import quizApp from "../../Assets/Portfolio Images/quiz-app-react.JPG"
+import coffeePortfolio from "../../Assets/Portfolio Images/coffee-portfolio.JPG"
+import portfolio3 from "../../Assets/Portfolio Images/portfolio-3.JPG"
+import khabibullakhanov from "../../Assets/Portfolio Images/khabibullakhanov-office.JPG"
+import calculator from "../../Assets/Portfolio Images/calculator.JPG"
+import crudRedux from "../../Assets/Portfolio Images/redux-crud.JPG"
 
 
 export function Portfolios() {
@@ -18,38 +32,86 @@ export function Portfolios() {
         {
             name: "name",
             gitHb: "https://github.com/khabibullakhanov",
-            netlify: "https://app.netlify.com/teams/habibullaxonovmuhammadxon",
-            img: backImg,
+            netlify: "https://alto-portfolio.netlify.app/",
+            img: alto,
         },
         {
             name: "name",
             gitHb: "https://github.com/khabibullakhanov",
-            netlify: "https://app.netlify.com/teams/habibullaxonovmuhammadxon",
-            img: backImg,
+            netlify: "https://khabibullakhanov-office.netlify.app/",
+            img: office,
         },
         {
             name: "name",
             gitHb: "https://github.com/khabibullakhanov",
-            netlify: "https://app.netlify.com/teams/habibullaxonovmuhammadxon",
-            img: backImg,
+            netlify: "https://honey-store.netlify.app/",
+            img: honeyStore,
         },
         {
             name: "name",
             gitHb: "https://github.com/khabibullakhanov",
-            netlify: "https://app.netlify.com/teams/habibullaxonovmuhammadxon",
-            img: backImg,
+            netlify: "https://xpress-admin-panel.netlify.app/",
+            img: xpressAdmin,
         },
         {
             name: "name",
             gitHb: "https://github.com/khabibullakhanov",
-            netlify: "https://app.netlify.com/teams/habibullaxonovmuhammadxon",
-            img: backImg,
+            netlify: "https://honey-admin-panel.netlify.app/",
+            img: honeyAdmin,
         },
         {
             name: "name",
             gitHb: "https://github.com/khabibullakhanov",
-            netlify: "https://app.netlify.com/teams/habibullaxonovmuhammadxon",
-            img: backImg,
+            netlify: "https://khabibullakhanov-pagination.netlify.app/",
+            img: pagination,
+        },
+        {
+            name: "name",
+            gitHb: "https://github.com/khabibullakhanov",
+            netlify: "https://moxo-portfolio.netlify.app/",
+            img: moxoPr,
+        },
+        {
+            name: "name",
+            gitHb: "https://github.com/khabibullakhanov",
+            netlify: "https://password-generator-in-react.netlify.app/",
+            img: passwordGenerator,
+        },
+        {
+            name: "name",
+            gitHb: "https://github.com/khabibullakhanov",
+            netlify: "https://quiz-app-in-react.netlify.app/",
+            img: quizApp,
+        },
+        {
+            name: "name",
+            gitHb: "https://github.com/khabibullakhanov",
+            netlify: "https://coffe-portfolio-khabibullakhanov.netlify.app/",
+            img: coffeePortfolio,
+        },
+        {
+            name: "name",
+            gitHb: "https://github.com/khabibullakhanov",
+            netlify: "https://portfolio03-khabibullakhanov.netlify.app/",
+            img: portfolio3,
+        },
+        {
+            name: "name",
+            gitHb: "https://github.com/khabibullakhanov",
+            netlify: "https://portfolio-khabibullakhanov.netlify.app/",
+            img: khabibullakhanov,
+        },
+        {
+            name: "name",
+            gitHb: "https://github.com/khabibullakhanov",
+            netlify: "https://calculator-khabibullakhanov.netlify.app/",
+            img: calculator,
+        },
+        {
+            name: "name",
+            gitHb: "https://github.com/khabibullakhanov/redux-crud",
+            netlify: "https://crud-in-redux.netlify.app/",
+            img: crudRedux,
         },
     ]
 
@@ -74,7 +136,7 @@ export function Portfolios() {
                                 </div>
                                 <div>
                                     <h3>See on Netlify </h3>
-                                    <a rel="noopener noreferrer" href={item.netlify} >
+                                    <a href={item.netlify} target="_blank" rel="noopener noreferrer">
                                         <IconButton>
                                             <DashboardIcon id="portfolio-hover-icon" style={{ fontSize: "40px" }} />
                                         </IconButton>

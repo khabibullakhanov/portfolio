@@ -11,6 +11,19 @@ import resume from "../../Assets/Resume/Resume.pdf"
 
 
 export function Home() {
+    const startYear = "2021";
+    const startMonth = "5";
+
+    const nowTime = new Date().toLocaleDateString().split("/");
+
+    console.log(nowTime);
+    const nowYear = nowTime[2];
+    const nowMonth = nowTime[0];
+    const expMonth = `${nowMonth - startMonth}`;
+    const expYear = `${nowYear - startYear}`;
+    const experience = `${expYear} Yil ${expMonth} Oy`;
+
+    // console.log(new Date().toLocaleDateString().split("."));
     return (
         <div id='home-main-container'>
             <div id='home-main-container-header'>
@@ -21,6 +34,10 @@ export function Home() {
                     <h3>HI There ! I'M</h3>
                     <h1>Khabibullakhanov Mukhammadkhan.</h1>
                     <p>I'm middle junior Front-End Developer located in Uzbekistan. I have a serious passion for UI effects, animations and creating intuitive, dynamic user experiences. I am an extremely curious and self-motivated individual with a huge passion for design in general. As an autodidact, I take a very positive and ego-free approach to all aspects of my life, and I carry a strong work ethic with me wherever I go. Well-organised person, problem solver, independent employee with high attention to detail. Fan of Football, outdoor activities, TV series and English language. Interested in the entire frontend spectrum and working on ambitious projects with positive people.</p>
+                    <div id='work-experience'>
+                        <h3>My Work Experience :</h3>
+                        <p>{experience}</p>
+                    </div>
                     <div id='home-main-container-right-content-resume'>
                         {/*  */}
                         <button><a href={resume} download={resume}>Resume</a></button>

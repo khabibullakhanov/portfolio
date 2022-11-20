@@ -54,6 +54,11 @@
     #navbar-main-container-right-content a {
         display: none;
     }
+
+    #navbar-main-container-left-content > figure {
+        width: 60px;
+        height: 60px;
+    }
 }
 
 

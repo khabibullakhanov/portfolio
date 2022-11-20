@@ -58,16 +58,22 @@
 #home-main-container-right-content-resume-social div {
     background-color: rgba(202, 202, 202, 0.445);
     border-radius: 6px;
-    transition:0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 #home-main-container-right-content-resume-social div:hover {
     transform: rotate(45deg);
-    transition:0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 #home-main-container-right-content-resume-social div>* {
     color: white;
+}
+
+#work-experience {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5rem;
 }
 
 @media (max-width: 1300px) {
@@ -84,13 +90,18 @@
         justify-content: center;
         align-items: center;
     }
-    
+
     #home-main-container-right-content {
         width: 90%;
     }
+
+    #home-main-container-header>figure {
+        margin-bottom: 5%;
+    }
 }
+
 @media (max-width: 600px) {
-    #home-main-container-header >figure {
+    #home-main-container-header>figure {
         width: 90%;
         margin-bottom: 5%;
     }
@@ -98,9 +109,9 @@
     #home-main-container-right-content-resume {
         width: 100%;
         display: flex;
-    }    
+    }
 
-    #home-main-container-right-content-resume > button {
+    #home-main-container-right-content-resume>button {
         width: 40%;
         font-size: 15px;
         height: 45px;
@@ -108,12 +119,44 @@
 }
 
 @media (max-width: 400px) {
-    #home-main-container-right-content  > h1 {
+    #home-main-container-right-content>h1 {
         font-size: 18px;
     }
 
-    #home-main-container-right-content  > p {
+    #home-main-container-right-content>p {
         font-size: 12px;
         padding: 0 5%;
     }
+
+    #work-experience {
+        display: flex;
+        justify-content: center;
+    }
+
+    #work-experience>h3 {
+        font-size: 13px;
+    }
+
+    #work-experience>p {
+        font-size: 12px;
+    }
+
+    #home-main-container-right-content-resume {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #home-main-container-right-content-resume>button {
+        width: 90%;
+    }
+
+    #home-main-container-right-content-resume-social {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+    }
 }
+
+@media (max-width: 380px) {}

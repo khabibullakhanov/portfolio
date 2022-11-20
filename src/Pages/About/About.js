@@ -5,7 +5,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import IconButton from '@mui/material/IconButton';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import InstagramIcon from '@mui/icons-material/Instagram';
-
+import StarIcon from '@mui/icons-material/Star';
+import StarHalfIcon from '@mui/icons-material/StarHalf';
 
 
 export function About() {
@@ -15,48 +16,56 @@ export function About() {
             name: "Oybek",
             surname: "Abduljabborov",
             img: oybek,
+            star: "true",
             work: "Full Stack"
         },
         {
             name: "Muhammadxon",
             surname: "Habibullaxonov",
             img: oybek,
+            star: "false",
             work: "Front-End"
         },
         {
             name: "Muslimbek",
             surname: "Najmiddinov",
             img: oybek,
+            star: "false",
             work: "Front-End"
         },
         {
             name: "Hojiakbar",
             surname: "Nasriddinov",
             img: oybek,
+            star: "false",
             work: "Front-End"
         },
         {
             name: "Behruz",
             surname: "Abduljabborov",
             img: oybek,
+            star: "false",
             work: "Front-End"
         },
         {
             name: "Omadbek",
             surname: "Umarboyev",
             img: oybek,
+            star: "false",
             work: "Front-End"
         },
         {
             name: "Nozimjon",
             surname: "Olimjonov",
             img: oybek,
+            star: "false",
             work: "Front-End"
         },
         {
             name: "G'oyibberdi",
             surname: "G'oyipov",
             img: oybek,
+            star: "false",
             work: "Front-End"
         },
     ]
@@ -72,7 +81,11 @@ export function About() {
                                 <img src={item.img} alt="" />
                             </figure>
                             <div id='about-card-content-center'>
-                                <h2>{item.name}</h2>
+                                <div id='about-card-content-name'>
+                                    <h2>{item.name}</h2>
+                                    <p style={item.star === "true" ? { display: "block" } : { display: "none" }}>< StarIcon /></p>
+                                    <p style={item.star === "false" ? { display: "block" } : { display: "none" }}><StarHalfIcon /></p>
+                                </div>
                                 <p>{item.surname}</p>
                             </div>
                             <div id='about-card-content-footer'>
@@ -101,6 +114,6 @@ export function About() {
                 })
                 }
             </div>
-        </div>
+        </div >
     )
 }

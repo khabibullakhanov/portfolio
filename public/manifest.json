@@ -1,0 +1,48 @@
+{
+    "short_name": "khabibullakhanov",
+    "name": "khabibullakhanov",
+    "scope": "/",
+      "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    
+   "icons": [
+     {
+        "src": "My logo.jpg",
+        "sizes": "512x512"
+      },
+      {
+        "src": "My logo.jpg",
+        "sizes": "192x192"
+      },
+      {
+        "src": "My logo.jpg",
+        "sizes": "144x144"
+      },
+      {
+        "src": "My logo.jpg",
+        "sizes": "96x96"
+      },
+      {
+        "src": "My logo.jpg",
+        "sizes": "87x87"
+      },
+      {
+        "src": "My logo.jpg",
+        "sizes": "72x72"
+      },
+  
+      {
+        "src": "ios/50.png",
+        "sizes": "50x50"
+      },
+      
+      {
+        "src": "My logo.jpg",
+        "sizes": "48x48"
+      }
+      
+     
+    ]
+  }

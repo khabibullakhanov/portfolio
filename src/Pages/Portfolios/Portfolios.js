@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import "./Portfolios.css"
-import backImg from "../../Assets/Images/header image home.webp"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import { IconButton } from '@mui/material';

@@ -11,17 +11,17 @@ import resume from "../../Assets/Resume/Resume.pdf"
 
 
 export function Home() {
-    const startYear = "2021";
+    // const startYear = "2021";
     const startMonth = "5";
 
     const nowTime = new Date().toLocaleDateString().split("/");
 
     console.log(nowTime);
-    const nowYear = nowTime[2];
+    // const nowYear = nowTime[2];
     const nowMonth = nowTime[0];
     const expMonth = `${nowMonth - startMonth}`;
-    const expYear = `${nowYear - startYear}`;
-    const experience = `${expYear} Yil ${expMonth} Oy`;
+    // const expYear = `${nowYear - startYear}`;
+    const experience = `${expMonth} Oy`;
 
     // console.log(new Date().toLocaleDateString().split("."));
     return (

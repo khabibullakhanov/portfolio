@@ -19,8 +19,10 @@
 }
 
 #home-main-container-header figure img {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     border-radius: 50%;
     width: 60%;
+    border: 8px solid rgba(227, 227, 227, 0.601);
 }
 
 #home-main-container-right-content {

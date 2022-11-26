@@ -17,9 +17,9 @@ import passwordGenerator from "../../Assets/Portfolio Images/password-generator.
 import quizApp from "../../Assets/Portfolio Images/quiz-app-react.JPG"
 import coffeePortfolio from "../../Assets/Portfolio Images/coffee-portfolio.JPG"
 import portfolio3 from "../../Assets/Portfolio Images/portfolio-3.JPG"
-import khabibullakhanov from "../../Assets/Portfolio Images/khabibullakhanov-office.JPG"
 import calculator from "../../Assets/Portfolio Images/calculator.JPG"
 import crudRedux from "../../Assets/Portfolio Images/redux-crud.JPG"
+import blackPortfolio from "../../Assets/Portfolio Images/balck-portfolio.JPG"
 
 
 export function Portfolios() {
@@ -29,85 +29,85 @@ export function Portfolios() {
 
     const portfolios = [
         {
-            name: "name",
+            name: "Alto",
             gitHb: "https://github.com/khabibullakhanov",
             netlify: "https://alto-portfolio.netlify.app/",
             img: alto,
         },
         {
-            name: "name",
+            name: "My Office",
             gitHb: "https://github.com/khabibullakhanov",
             netlify: "https://khabibullakhanov-office.netlify.app/",
             img: office,
         },
         {
-            name: "name",
+            name: "Honey Shop",
             gitHb: "https://github.com/khabibullakhanov",
             netlify: "https://honey-store.netlify.app/",
             img: honeyStore,
         },
         {
-            name: "name",
+            name: "Xpress Admin",
             gitHb: "https://github.com/khabibullakhanov",
             netlify: "https://xpress-admin-panel.netlify.app/",
             img: xpressAdmin,
         },
         {
-            name: "name",
+            name: "Honey Admin",
             gitHb: "https://github.com/khabibullakhanov",
             netlify: "https://honey-admin-panel.netlify.app/",
             img: honeyAdmin,
         },
         {
-            name: "name",
+            name: "Pagination",
             gitHb: "https://github.com/khabibullakhanov",
             netlify: "https://khabibullakhanov-pagination.netlify.app/",
             img: pagination,
         },
         {
-            name: "name",
+            name: "Moxo",
             gitHb: "https://github.com/khabibullakhanov",
             netlify: "https://moxo-portfolio.netlify.app/",
             img: moxoPr,
         },
         {
-            name: "name",
+            name: "Generator",
             gitHb: "https://github.com/khabibullakhanov",
             netlify: "https://password-generator-in-react.netlify.app/",
             img: passwordGenerator,
         },
         {
-            name: "name",
+            name: "Quiz App",
             gitHb: "https://github.com/khabibullakhanov",
             netlify: "https://quiz-app-in-react.netlify.app/",
             img: quizApp,
         },
         {
-            name: "name",
+            name: "Coffee",
             gitHb: "https://github.com/khabibullakhanov",
             netlify: "https://coffe-portfolio-khabibullakhanov.netlify.app/",
             img: coffeePortfolio,
         },
         {
-            name: "name",
+            name: "Portfolio",
             gitHb: "https://github.com/khabibullakhanov",
             netlify: "https://portfolio03-khabibullakhanov.netlify.app/",
             img: portfolio3,
         },
         {
-            name: "name",
+            name: "Black Portfolio",
             gitHb: "https://github.com/khabibullakhanov",
             netlify: "https://portfolio-khabibullakhanov.netlify.app/",
-            img: khabibullakhanov,
+            img: blackPortfolio,
         },
         {
-            name: "name",
+            name: "calculator",
             gitHb: "https://github.com/khabibullakhanov",
             netlify: "https://calculator-khabibullakhanov.netlify.app/",
             img: calculator,
         },
         {
-            name: "name",
+            name: "CRUD in Redux",
             gitHb: "https://github.com/khabibullakhanov/redux-crud",
             netlify: "https://crud-in-redux.netlify.app/",
             img: crudRedux,
@@ -125,6 +125,7 @@ export function Portfolios() {
                                 <img src={item.img} alt="" />
                             </figure>
                             <div id='portfolio-card-hover'>
+                                <h3 style={{ color: "white" }}>{item.name}</h3>
                                 <div>
                                     <h3>See on Git Hub</h3>
                                     <a rel="noopener noreferrer" href={item.gitHb} >

@@ -66,8 +66,8 @@
 
 @media (max-width: 500px) {
     #about-card-content>figure {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
     }
     
     #about-card-content>figure>img {

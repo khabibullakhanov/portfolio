@@ -33,7 +33,7 @@ export function Navbar() {
             pathName: "/portfolios",
         },
         {
-            name: "Contacts",
+            name: "Feedback",
             icons: <BorderColorSharpIcon />,
             pathName: "/contacts",
         },

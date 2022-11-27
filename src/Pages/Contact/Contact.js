@@ -6,8 +6,13 @@ import { PatternFormat } from 'react-number-format';
 
 export function Contact() {
 
-  
 
+
+  const current = new Date();
+  const year = current.getFullYear();
+  const month = current.getMonth()
+  const fullTime = current.toLocaleTimeString()
+  const fullDate = fullTime + " " + month + " " + year
   const [data, setData] = useState(
     { name: "", phone: "", email: "", date: fullDate, }
   )
@@ -35,6 +40,7 @@ export function Contact() {
         >
           <h1>Send Me Message</h1>
           <input required
+            autoComplete='off'
             // {...register("name")}
             value={data.name}
             onChange={(e) => {
@@ -45,6 +51,7 @@ export function Contact() {
             setData({ ...data, phone: e.target.value })
           }} type="number" placeholder='Type your phone..' /> */}
           <PatternFormat
+            autoComplete='off'
             // value={register.phone}
             // {...register("phone")}
             placeholder="Type your phone.."
@@ -58,6 +65,7 @@ export function Contact() {
             }}
           />
           <input required
+            autoComplete='off'
             value={data.email}
             onChange={(e) => {
               setData({ ...data, email: e.target.value })

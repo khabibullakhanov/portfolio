@@ -32,6 +32,11 @@
     width: 45%;
 }
 
+#home-main-container-right-content>p>a {
+    color: rgb(85, 144, 223);
+    text-decoration: underline;
+}
+
 #home-main-container-right-content-resume {
     display: flex;
     align-items: center;

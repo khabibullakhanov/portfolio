@@ -6,11 +6,7 @@ import { PatternFormat } from 'react-number-format';
 
 export function Contact() {
 
-    const current = new Date();
-  const year = current.getFullYear();
-  const month = current.getMonth();
-  const fullTime = current.toLocaleTimeString()
-  const fullDate = fullTime + " " + month + " " + year
+  
 
   const [data, setData] = useState(
     { name: "", phone: "", email: "", date: fullDate, }
